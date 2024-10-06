@@ -14,8 +14,8 @@ const Hero = () => {
       <Container className="not-prose">
         <div className="flex w-full justify-between">
           <div className="">
-            <h1 className="mb-4 text-3xl font-normal md:text-6xl">
-              <Link className="transition-all text-green-200 hover:opacity-70" href="#">
+            <h1 className="text-3xl font-normal md:text-6xl">
+              <Link className="transition-all text-green-200 hover:opacity-70" href="/">
                 Waters India
               </Link>
             </h1>

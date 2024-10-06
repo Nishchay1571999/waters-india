@@ -16,7 +16,6 @@ type LayoutProps = {
 
 const Layout = ({ children, className }: LayoutProps) => {
   React.useEffect(() => {
-    // Set the dark mode by default
     document.documentElement.classList.add('dark');
   }, []);
   return (

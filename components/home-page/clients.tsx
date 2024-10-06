@@ -18,6 +18,7 @@ function Clients() {
       <div className="flex items-center justify-center h-auto">
         <h1 className="text-white font-extrabold">Our Clients</h1>
       </div>
+      <h2 className="font-light text-lime-300 text-center">Our Clients include Bosh, TCS, ITC, Britania, DLF, SOBHA, AXIS Bank and many more to name a few.</h2>
       <div className="2xl:container 2xl:mx-auto 2xl:px-0 py-3 px-10">
       <ListImageCorousel images={images}/>
     </div>   

@@ -29,7 +29,7 @@ export default function Navigation() {
                 </Link>
                 <Link
                     className="transition-all hover:text-green-400"
-                    href="mailto:nishchay.bhatta@gmail.com"
+                    href="mailto:watersindia2019@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
@@ -53,7 +53,7 @@ export default function Navigation() {
                         </Link>
                         <Link
                             className="block hover:text-green-400 border-gray-700 rounded-lg hover:bg-gray-950 transition"
-                            href="mailto:nishchay.bhatta@gmail.com"
+                            href="mailto:watersindia2019@gmail.com"
                             target="_blank"
                             rel="noopener noreferrer"
                             onClick={toggleDrawer}
