@@ -1,5 +1,5 @@
+"use client"
 import * as React from "react";
-
 // cn util
 import { type ClassValue, clsx } from "clsx";
 import { twMerge } from "tailwind-merge";
@@ -15,11 +15,16 @@ type LayoutProps = {
 };
 
 const Layout = ({ children, className }: LayoutProps) => {
+  React.useEffect(() => {
+    // Set the dark mode by default
+    document.documentElement.classList.add('dark');
+  }, []);
   return (
     <html
       lang="en"
       suppressHydrationWarning
       className={cn("scroll-smooth antialiased focus:scroll-auto", className)}
+      
     >
       {children}
     </html>

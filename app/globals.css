@@ -93,15 +93,17 @@ body {
 
 
 
+/* In styles/globals.css */
 @keyframes marquee {
-  0% {
+  from {
     transform: translateX(0%);
   }
-  100% {
+  to {
     transform: translateX(-100%);
   }
 }
 
 .animate-marquee {
+  display: flex;
   animation: marquee 20s linear infinite;
 }

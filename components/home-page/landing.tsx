@@ -1,14 +1,16 @@
+"use client"
 // React and Next.js imports
 import Link from "next/link";
 // import Image from "next/image";
 
 // Local component imports
 import { Section, Container } from "@/components/craft";
+import Drawer from "./Drawer";
 
 
 const Hero = () => {
   return (
-    <Section className="relative h-[100vh]">
+    <Section className="relative">
       <Container className="not-prose">
         <div className="flex w-full justify-between">
           <div className="">
@@ -18,27 +20,14 @@ const Hero = () => {
               </Link>
             </h1>
 
-            <div className="flex">
-            <h2 className="w-82 text-lg text-green-200 font-light leading-6">
-              Pure water should be a 
-            </h2>
-            <h2 className="w-82 text-lg text-orange-300 font-light leading-6">necessity</h2>
+            <div className="flex-row">
+              <h2 className="w-82 text-lg text-green-200 font-light leading-6">
+                Pure water should be a
+              </h2>
+              <h2 className="w-82 text-lg text-orange-300 font-light leading-6">necessity</h2>
             </div>
           </div>
-          <div className="hidden gap-4 md:flex">
-            <Link className="transition-all hover:text-green-400" href="#">
-              Blogs
-            </Link>
-            <Link className="transition-all hover:text-green-400" href="#">
-              Products
-            </Link>
-            <Link className="transition-all hover:text-green-400" href="#">
-              Call
-            </Link>
-            <Link className="transition-all hover:text-green-400" href="#">
-              Email
-            </Link>
-          </div>
+          <Drawer />
         </div>
       </Container>
     </Section>
