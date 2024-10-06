@@ -48,7 +48,10 @@ export default function Navigation() {
                         <Link className="block hover:text-green-400 border-gray-700 rounded-lg hover:bg-gray-950 transition" href="/products" onClick={toggleDrawer}>
                             Products
                         </Link>
-                        <Link className="block hover:text-green-400 border-gray-700 rounded-lg hover:bg-gray-950 transition" href="#" onClick={toggleDrawer}>
+                        <Link
+                            className="block hover:text-green-400 border-gray-700 rounded-lg hover:bg-gray-950 transition"
+                            href="tel:+919740890400"
+                        >
                             Call
                         </Link>
                         <Link
