@@ -5,21 +5,25 @@ import Clients from "@/components/home-page/clients";
 import Footer from "@/components/home-page/Footer";
 import Hero from "@/components/home-page/landing";
 import Statement from "@/components/home-page/statement";
+import Head from "next/head";
 
 
 export default function Home() {
   return (
-    <Layout>
-      <Main>
-        <Section>
-          <Container>
-            <Hero />
-            <Statement />
-            <Clients />
-          </Container>
-        </Section>
-        <Footer />
-      </Main>
-    </Layout>
+    <>
+      
+      <Layout>
+        <Main>
+          <Section>
+            <Container>
+              <Hero />
+              <Statement />
+              <Clients />
+            </Container>
+          </Section>
+          <Footer />
+        </Main>
+      </Layout>
+    </>
   );
 }
