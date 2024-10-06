@@ -47,7 +47,7 @@ export default function RootLayout({
               "url": "https://watersindia.com",
               "telephone": "+91 9740890400",
               "areaServed": "Bangalore",
-              "keywords": ["Water Treatment Bangalore", "STP", "WTP", "RO", "Water Management", "FFTR", "RWH", "Water Solutions"],
+              "keywords": ["Water Treatment Bangalore", "STP", "WTP", "RO", "Water Management", "FFTR", "RWH", "Water Solutions",],
             }),
           }}
         />
