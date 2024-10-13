@@ -12,7 +12,7 @@ export default function Home() {
     <>
       
       <Layout>
-        <Main>
+        <Main className="dark text-foreground bg-background">
           <Section>
             <Container>
               <Hero />
