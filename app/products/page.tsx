@@ -1,8 +1,6 @@
 // pages/products.js
 import Hero from '@/components/home-page/landing';
-import { DefaultSeo } from 'next-seo';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
 export default function Products() {
     const products = [
@@ -17,13 +15,9 @@ export default function Products() {
         { name: 'BIOGAS', description: 'Biogas production systems for renewable energy.' },
         { name: 'ETP', description: 'Effluent Treatment Plant for industrial wastewater management.' },
     ];
-    const router = useRouter();
-    const canonicalUrl = (`https://www.watersindia.com/` + (router.asPath === "/" ? "" : router.asPath)).split("?")[0];
     return (
         <>
-            <DefaultSeo
-                canonical={canonicalUrl}
-            />
+            
             <Hero />
             <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white p-6">
                 <h1 className="text-3xl font-bold mb-4">Our Products</h1>

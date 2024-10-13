@@ -15,14 +15,12 @@ type LayoutProps = {
 };
 
 const Layout = ({ children, className }: LayoutProps) => {
-  React.useEffect(() => {
-    document.documentElement.classList.add('dark');
-  }, []);
+  
   return (
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("scroll-smooth antialiased focus:scroll-auto", className)}
+      className={cn("scroll-smooth antialiased focus:scroll-auto", "dark")}
       
     >
       {children}
