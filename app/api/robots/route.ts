@@ -1,5 +1,5 @@
 // app/api/robots/route.ts
-export async function GET(request: Request): Promise<Response> {
+export async function GET(): Promise<Response> {
     const robotsTxt = `
       User-agent: *
       Disallow: /private

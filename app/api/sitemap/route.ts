@@ -1,5 +1,5 @@
 // app/api/sitemap/route.ts
-export async function GET(request: Request): Promise<Response> {
+export async function GET(): Promise<Response> {
     const baseUrl = 'https://watersindia.com'; // Change this to your actual domain
   
     // Example static URLs
