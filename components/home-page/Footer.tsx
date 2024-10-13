@@ -39,7 +39,7 @@ export default function Footer() {
             </div>
 
             {/* Address and Copyright Section */}
-            <div className="text-center mt-4 text-gray-500 text-sm">
+            <div className="text-center mt-4 text-gray-500 text-sm" id='Address'>
                 <p>S8,Ground Floor,7th Main Road</p>
                 <p>Muneshwar Nagar, Hospalya</p>
                 <p>Bangalore, Karnataka</p>
