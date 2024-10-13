@@ -62,7 +62,7 @@ export default function FFTRBovannahalliTumkur() {
         <section>
           <h2>Why Waters India for Advanced Water Treatment Solutions?</h2>
           <p>
-            At Waters India, we are committed to delivering <strong>innovative water treatment solutions</strong> tailored to our clients' specific needs. 
+            At Waters India, we are committed to delivering <strong>innovative water treatment solutions</strong> tailored to our client&apos;s specific needs. 
             Our FFTR systems are designed to ensure <strong>high-quality</strong> and <strong>safe water</strong> for various applications, 
             providing a sustainable and cost-effective approach to water purification. Trust Waters India for comprehensive and reliable water treatment systems.
           </p>

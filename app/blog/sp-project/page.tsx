@@ -56,7 +56,7 @@ export default function SolariceDishaInternationalSchool() {
             </li>
             <li>
               <strong>Reliable Performance:</strong> Designed for high efficiency, the Solarice system offers reliable energy output, 
-              ensuring that the school's energy needs are consistently met.
+              ensuring that the school&apos;s energy needs are consistently met.
             </li>
             <li>
               <strong>Educational Value:</strong> The Solarice project serves as a practical learning resource, helping students understand 

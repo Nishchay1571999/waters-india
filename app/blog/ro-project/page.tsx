@@ -36,7 +36,7 @@ export default function ROHomeBangalore() {
         <section>
           <h2>Project Overview</h2>
           <p>
-            The Bangalore home installation was designed to meet the family's specific needs with an <strong>affordable</strong> and <strong>high-performance</strong> RO water purifier. 
+            The Bangalore home installation was designed to meet the family&apos;s specific needs with an <strong>affordable</strong> and <strong>high-performance</strong> RO water purifier. 
             This system effectively eliminates contaminants, ensuring the family has continuous access to clean water at all times.
           </p>
         </section>
@@ -63,7 +63,7 @@ export default function ROHomeBangalore() {
           <h2>Why Choose Waters India for Home Water Purification?</h2>
           <p>
             At Waters India, we are dedicated to delivering <strong>high-quality</strong>, <strong>affordable water purification solutions</strong>. Our RO systems are tailored to meet the unique needs of each client, ensuring they receive the best in water purification technology. 
-            Experience the peace of mind that comes with knowing your family's water is clean, safe, and reliable.
+            Experience the peace of mind that comes with knowing your family&apos;s water is clean, safe, and reliable.
           </p>
         </section>
       </main>
