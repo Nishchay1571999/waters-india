@@ -26,7 +26,7 @@ export default function Footer() {
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
                         <FaTwitter size={24} />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                    <a href="https://www.instagram.com/waters_india_shashi/profilecard/?igsh=NTdtc2lpb25pZmV5" target="_blank" rel="noopener noreferrer" className="hover:text-white">
                         <FaInstagram size={24} />
                     </a>
                     <a href="https://wa.me/+919740890400?text=Hello%20Waters%20India%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services."
