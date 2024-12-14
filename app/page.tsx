@@ -11,7 +11,7 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-    <Head>
+      <Head>
         <title>Water Treatment Solutions in Bangalore - Waters India</title>
         <meta name="description" content="Waters India offers advanced water treatment solutions in Bangalore, specializing in STP, WTP, RO, and more." />
         <meta name="keywords" content="water solutions, water purifier, industrial water, Water Treatment, Bangalore, STP, WTP, RO, Waters India" />
@@ -49,7 +49,7 @@ export default function Home() {
       </Head>
 
       <Layout>
-        <Main className="dark text-foreground bg-background">
+        <Main className=" text-foreground bg-background">
           <Section>
             <Container>
               <Hero />
