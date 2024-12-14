@@ -68,22 +68,22 @@ const blogPosts = [
 
 export default function Blog() {
     return (
-        <>
+        <div className='bg-white'>
             <Hero />
             <div className="flex flex-col items-center justify-center  text-white p-6">
                 <h1 className="text-3xl font-bold mb-4">Our Success Stories</h1>
                 <p className="mb-6">
                     Read about our successful projects, innovative technologies, and insights into our work with various water treatment solutions.
                 </p>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 hover:text-white">
                     {blogPosts.map((post) => (
                         <Link key={post.id} href={post.href} className="p-4 border border-gray-700 rounded-lg hover:bg-gray-950 transition">
-                            <h2 className="text-xl font-semibold">{post.title}</h2>
-                            <p className="mt-2 text-gray-400">{post.description}</p>
+                            <h2 className="text-xl font-semibold text-black hover:text-white">{post.title}</h2>
+                            <p className="mt-2 text-gray-800 hover:text-white">{post.description}</p>
                         </Link>
                     ))}
                 </div>
             </div>
-        </>
+        </div>
     );
 }

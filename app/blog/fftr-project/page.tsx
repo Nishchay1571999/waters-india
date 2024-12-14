@@ -5,21 +5,21 @@ import Head from 'next/head';
 
 export default function FFTRBovannahalliTumkur() {
   return (
-    <>
+    <div className="bg-white">
       <Head>
         <title>FFTR Project in Bovannahalli, Tumkur | Waters India</title>
         <meta name="description" content="Learn how our FFTR system in Bovannahalli, Tumkur provides effective water treatment, offering exceptional filtration and total impurity removal for clean water." />
         <meta name="keywords" content="FFTR, water treatment, flocculation, filtration, Tumkur, Bangalore, Bovannahalli, clean water" />
       </Head>
-      <Hero/>
+      <Hero />
       <main className="container">
         <h1>FFTR Project in Bovannahalli, Tumkur: Comprehensive Water Treatment Solution</h1>
-        
+
         <section>
           <h2>Introduction</h2>
           <p>
-            Waters India recently completed an <strong>FFTR (Flocculation, Filtration, and Total Removal)</strong> project in Bovannahalli, Tumkur. 
-            This advanced water treatment system offers <strong>efficient filtration</strong> and ensures <strong>total removal of impurities</strong>, 
+            Waters India recently completed an <strong>FFTR (Flocculation, Filtration, and Total Removal)</strong> project in Bovannahalli, Tumkur.
+            This advanced water treatment system offers <strong>efficient filtration</strong> and ensures <strong>total removal of impurities</strong>,
             providing clean and safe water for a variety of applications.
           </p>
         </section>
@@ -27,8 +27,8 @@ export default function FFTRBovannahalliTumkur() {
         <section>
           <h2>What is an FFTR System?</h2>
           <p>
-            FFTR systems combine multiple processes—flocculation, filtration, and total removal—to effectively treat water. 
-            <strong>Flocculation</strong> gathers fine particles into larger clumps, which are then removed through <strong>filtration</strong>, 
+            FFTR systems combine multiple processes—flocculation, filtration, and total removal—to effectively treat water.
+            <strong>Flocculation</strong> gathers fine particles into larger clumps, which are then removed through <strong>filtration</strong>,
             resulting in water that is free from contaminants and ready for use.
           </p>
         </section>
@@ -36,7 +36,7 @@ export default function FFTRBovannahalliTumkur() {
         <section>
           <h2>Project Overview</h2>
           <p>
-            Our FFTR installation in Bovannahalli was tailored to handle local water quality challenges. 
+            Our FFTR installation in Bovannahalli was tailored to handle local water quality challenges.
             This system ensures that even the finest impurities are removed, delivering consistently <strong>high-quality water</strong> that meets stringent standards.
           </p>
         </section>
@@ -62,8 +62,8 @@ export default function FFTRBovannahalliTumkur() {
         <section>
           <h2>Why Waters India for Advanced Water Treatment Solutions?</h2>
           <p>
-            At Waters India, we are committed to delivering <strong>innovative water treatment solutions</strong> tailored to our client&apos;s specific needs. 
-            Our FFTR systems are designed to ensure <strong>high-quality</strong> and <strong>safe water</strong> for various applications, 
+            At Waters India, we are committed to delivering <strong>innovative water treatment solutions</strong> tailored to our client&apos;s specific needs.
+            Our FFTR systems are designed to ensure <strong>high-quality</strong> and <strong>safe water</strong> for various applications,
             providing a sustainable and cost-effective approach to water purification. Trust Waters India for comprehensive and reliable water treatment systems.
           </p>
         </section>
@@ -92,6 +92,6 @@ export default function FFTRBovannahalliTumkur() {
           margin-bottom: 0.75rem;
         }
       `}</style>
-    </>
+    </div>
   );
 }

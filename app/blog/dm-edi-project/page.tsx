@@ -5,21 +5,21 @@ import Head from 'next/head';
 
 export default function DMEDIProjectsBangalore() {
   return (
-    <>
+    <div className="bg-white">
       <Head>
         <title>DM EDI Projects in Bangalore | Waters India</title>
         <meta name="description" content="Learn how Waters India provides high-quality DM EDI solutions in Bangalore, delivering pure water for industrial and commercial applications." />
         <meta name="keywords" content="DM EDI, deionization, electrodeionization, water treatment, Bangalore, pure water, industrial water treatment" />
       </Head>
-      <Hero/>
+      <Hero />
       <main className="container">
         <h1>DM EDI Projects in Bangalore: Advanced Deionization Solutions</h1>
-        
+
         <section>
           <h2>Introduction</h2>
           <p>
-            Waters India offers advanced <strong>DM EDI (Deionization with Electrodeionization)</strong> solutions in Bangalore, providing 
-            <strong>high-purity water</strong> for a range of industrial and commercial applications. Our DM EDI systems are 
+            Waters India offers advanced <strong>DM EDI (Deionization with Electrodeionization)</strong> solutions in Bangalore, providing
+            <strong>high-purity water</strong> for a range of industrial and commercial applications. Our DM EDI systems are
             <strong>energy-efficient</strong>, <strong>cost-effective</strong>, and designed for long-term reliability.
           </p>
         </section>
@@ -27,7 +27,7 @@ export default function DMEDIProjectsBangalore() {
         <section>
           <h2>What is DM EDI?</h2>
           <p>
-            DM EDI combines deionization with electrodeionization to produce ultrapure water. This process removes ions and other impurities 
+            DM EDI combines deionization with electrodeionization to produce ultrapure water. This process removes ions and other impurities
             without the need for chemical regeneration, making it a <strong>continuous and eco-friendly</strong> solution for water purification.
           </p>
         </section>
@@ -35,7 +35,7 @@ export default function DMEDIProjectsBangalore() {
         <section>
           <h2>Our DM EDI Projects in Bangalore</h2>
           <p>
-            Waters India has successfully implemented DM EDI systems across various industries in and around Bangalore. Each project is customized 
+            Waters India has successfully implemented DM EDI systems across various industries in and around Bangalore. Each project is customized
             to meet specific purity requirements, ensuring that our clients receive <strong>consistently high-quality water</strong> for critical processes.
           </p>
         </section>
@@ -61,8 +61,8 @@ export default function DMEDIProjectsBangalore() {
         <section>
           <h2>Why Choose Waters India for DM EDI Projects?</h2>
           <p>
-            Waters India is dedicated to delivering <strong>innovative and sustainable water treatment solutions</strong>. Our expertise in DM EDI technology ensures 
-            that our clients receive systems that are tailored to their specific needs, providing reliable performance and high-quality water. 
+            Waters India is dedicated to delivering <strong>innovative and sustainable water treatment solutions</strong>. Our expertise in DM EDI technology ensures
+            that our clients receive systems that are tailored to their specific needs, providing reliable performance and high-quality water.
             Trust Waters India for your DM EDI projects and experience the benefits of our advanced water purification systems.
           </p>
         </section>
@@ -91,6 +91,6 @@ export default function DMEDIProjectsBangalore() {
           margin-bottom: 0.75rem;
         }
       `}</style>
-    </>
+    </div>
   );
 }

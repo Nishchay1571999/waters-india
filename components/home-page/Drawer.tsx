@@ -20,7 +20,7 @@ export default function Navigation() {
             </button>
 
             {/* Navigation links for desktop */}
-            <div className="hidden gap-4 md:flex text-white">
+            <div className="hidden gap-4 md:flex text-black">
                 <Link className="transition-all hover:text-green-400" href="/blogs">
                     Success Stories
                 </Link>
@@ -39,8 +39,8 @@ export default function Navigation() {
 
             {/* Drawer for mobile */}
             <div className={`fixed inset-0 z-50 transform ${isDrawerOpen ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 ease-in-out md:hidden`}>
-                <div className="fixed inset-0 bg-black bg-opacity-75" onClick={toggleDrawer}></div>
-                <div className="fixed top-0 left-0 h-full w-3/4 bg-black p-6 text-white">
+                <div className="fixed inset-0 bg-opacity-75" onClick={toggleDrawer}></div>
+                <div className="fixed top-0 left-0 h-full w-3/4 p-6 text-black">
                     <nav className="mt-8 space-y-4">
                         <Link className="block hover:text-green-400 border-gray-700 rounded-lg hover:bg-gray-950 transition" href="/blogs" onClick={toggleDrawer}>
                             Success Stories

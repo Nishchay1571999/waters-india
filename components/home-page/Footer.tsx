@@ -6,7 +6,7 @@ import logo from '@/public/logo.jpeg'; // Add your logo image file here
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-gray-200 py-8">
+        <footer className=" text-gray-800 py-8">
             <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
                 {/* Logo and Brand Name */}
                 <div className="flex items-center text-center space-x-3 justify-center">

@@ -5,20 +5,20 @@ import Head from 'next/head';
 
 export default function PSBTumkur() {
   return (
-    <>
+    <div className="bg-white">
       <Head>
         <title>PSB Project in Tumkur | Waters India</title>
         <meta name="description" content="Discover how our PSB installation in Tumkur ensures efficient and cost-effective water filtration, delivering reliable and high-quality water." />
         <meta name="keywords" content="Pressure Sand Filter, PSB, water filtration, Tumkur, clean water, affordable, efficient" />
       </Head>
-      <Hero/>
+      <Hero />
       <main className="container">
         <h1>PSB Project in Tumkur: Effective Water Filtration with Affordability and Reliability</h1>
-        
+
         <section>
           <h2>Introduction</h2>
           <p>
-            At Waters India, we take pride in providing top-notch water treatment solutions for our clients. Our recent project in Tumkur involved the installation of a <strong>Pressure Sand Filter (PSB)</strong> system, 
+            At Waters India, we take pride in providing top-notch water treatment solutions for our clients. Our recent project in Tumkur involved the installation of a <strong>Pressure Sand Filter (PSB)</strong> system,
             which offers an <strong>efficient</strong> and <strong>affordable</strong> solution for water filtration, ensuring clean and high-quality water.
           </p>
         </section>
@@ -26,7 +26,7 @@ export default function PSBTumkur() {
         <section>
           <h2>What is a Pressure Sand Filter (PSB)?</h2>
           <p>
-            A Pressure Sand Filter (PSB) is a filtration system that removes suspended particles, turbidity, and impurities from water using a multi-layered sand bed. 
+            A Pressure Sand Filter (PSB) is a filtration system that removes suspended particles, turbidity, and impurities from water using a multi-layered sand bed.
             This <strong>cost-effective</strong> and <strong>low-maintenance</strong> solution is widely used to provide clean water for a range of applications.
           </p>
         </section>
@@ -34,7 +34,7 @@ export default function PSBTumkur() {
         <section>
           <h2>Project Overview</h2>
           <p>
-            Our PSB installation in Tumkur was customized to meet local water filtration needs, ensuring that water quality standards are met with minimal effort. 
+            Our PSB installation in Tumkur was customized to meet local water filtration needs, ensuring that water quality standards are met with minimal effort.
             The system is designed to be <strong>reliable</strong> and <strong>easy to operate</strong>, providing a practical solution for long-term water filtration.
           </p>
         </section>
@@ -60,7 +60,7 @@ export default function PSBTumkur() {
         <section>
           <h2>Why Waters India for Your Water Filtration Needs?</h2>
           <p>
-            Waters India is dedicated to providing <strong>high-quality</strong> and <strong>affordable water treatment solutions</strong> that meet the specific needs of our clients. 
+            Waters India is dedicated to providing <strong>high-quality</strong> and <strong>affordable water treatment solutions</strong> that meet the specific needs of our clients.
             Our PSB systems are reliable, efficient, and designed to ensure safe and clean water. Choose us to experience the best in water filtration technology.
           </p>
         </section>
@@ -89,6 +89,6 @@ export default function PSBTumkur() {
           margin-bottom: 0.75rem;
         }
       `}</style>
-    </>
+    </div>
   );
 }

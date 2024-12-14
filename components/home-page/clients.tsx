@@ -1,6 +1,6 @@
 import React from "react";
 import { ListImageCorousel } from "../common/Imagecorousel";
-import BoschLogo from"@/public/Bosch.webp"
+import BoschLogo from "@/public/Bosch.webp"
 import DLFLogo from "@/public/Dlf.webp"
 import Tesco from "@/public/Tesco.webp"
 import Intel from "@/public/Intl.webp"
@@ -11,17 +11,17 @@ import Dps from "@/public/Dps_logo.jpg"
 import Goorej from "@/public/Goprej.webp"
 import Lsop from "@/public/LSOP.png"
 
-const images = [BoschLogo,DLFLogo,Tesco,Intel,Engage,Tcs,Britania,Dps,Goorej,Lsop]
+const images = [BoschLogo, DLFLogo, Tesco, Intel, Engage, Tcs, Britania, Dps, Goorej, Lsop]
 function Clients() {
   return (
     <div className="">
       <div className="flex items-center justify-center h-auto">
         <h1 className="text-white font-extrabold">Our Clients</h1>
       </div>
-      <h2 className="font-light text-lime-300 text-center">Our Clients include Bosh, TCS, ITC, Britania, DLF, SOBHA, AXIS Bank and many more to name a few.</h2>
+      <h2 className="font-light text-black text-center">Our clients include Bosh, TCS, ITC, Britania, DLF, SOBHA, AXIS Bank and many more to name a few.</h2>
       <div className="2xl:container 2xl:mx-auto 2xl:px-0 py-3 px-10">
-      <ListImageCorousel images={images}/>
-    </div>   
+        <ListImageCorousel images={images} />
+      </div>
     </div>
   );
 }

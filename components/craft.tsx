@@ -14,14 +14,14 @@ type LayoutProps = {
   className?: string;
 };
 
-const Layout = ({ children,className }: LayoutProps) => {
-  
+const Layout = ({ children, className }: LayoutProps) => {
+
   return (
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("scroll-smooth antialiased focus:scroll-auto", "dark",className)}
-      
+      className={cn("scroll-smooth antialiased focus:scroll-auto", className)}
+
     >
       {children}
     </html>

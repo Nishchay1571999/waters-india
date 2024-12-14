@@ -16,25 +16,25 @@ export default function Products() {
         { name: 'ETP', description: 'Effluent Treatment Plant for industrial wastewater management.' },
     ];
     return (
-        <>
-            
+        <div className="bg-white">
+
             <Hero />
-            <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white p-6">
+            <div className="min-h-screen flex flex-col items-center justify-center  text-black p-6">
                 <h1 className="text-3xl font-bold mb-4">Our Products</h1>
                 <p className="mb-4">
                     Explore our expertise in STP, WTP, RO, SP, FFTR, RWH, DM (EDI), PSB, BIOGAS, and ETP contract solutions.
                 </p>
                 <ul className="list-disc list-inside space-y-3">
                     {products.map((product, index) => (
-                        <li key={index} className="hover:text-green-400 transition">
+                        <li key={index} className="hover:text-green-800 transition">
                             <strong>{product.name}:</strong> {product.description}
                         </li>
                     ))}
                 </ul>
-                <Link href="/" className="mt-6 text-green-400 hover:underline">
+                <Link href="/" className="mt-6 text-green-800 hover:underline">
                     Back to Home
                 </Link>
             </div>
-        </>
+        </div>
     );
 }

@@ -5,20 +5,20 @@ import Head from 'next/head';
 
 export default function ETPProjectsBangalore() {
   return (
-    <>
+    <div className="bg-white">
       <Head>
         <title>ETP Projects in Bangalore | Waters India</title>
         <meta name="description" content="Discover how Waters India provides effective and sustainable ETP solutions in Bangalore, helping manage industrial wastewater treatment efficiently." />
         <meta name="keywords" content="ETP, effluent treatment plant, water treatment, Bangalore, wastewater management, industrial effluent" />
       </Head>
-      <Hero/>
+      <Hero />
       <main className="container">
         <h1>ETP Projects in Bangalore: Effective Industrial Wastewater Treatment Solutions</h1>
-        
+
         <section>
           <h2>Introduction</h2>
           <p>
-            At Waters India, we specialize in delivering top-notch <strong>Effluent Treatment Plant (ETP)</strong> solutions to manage industrial wastewater efficiently. 
+            At Waters India, we specialize in delivering top-notch <strong>Effluent Treatment Plant (ETP)</strong> solutions to manage industrial wastewater efficiently.
             Our projects across Bangalore are designed to provide <strong>cost-effective</strong> and <strong>reliable</strong> effluent treatment, helping industries comply with environmental regulations and minimize their impact on local water resources.
           </p>
         </section>
@@ -26,7 +26,7 @@ export default function ETPProjectsBangalore() {
         <section>
           <h2>What is an ETP?</h2>
           <p>
-            An Effluent Treatment Plant (ETP) is a facility designed to treat industrial wastewater by removing harmful pollutants and chemicals. 
+            An Effluent Treatment Plant (ETP) is a facility designed to treat industrial wastewater by removing harmful pollutants and chemicals.
             This process ensures that treated water can be safely discharged or reused, reducing environmental impact and promoting sustainability.
           </p>
         </section>
@@ -34,7 +34,7 @@ export default function ETPProjectsBangalore() {
         <section>
           <h2>Our ETP Projects in Bangalore</h2>
           <p>
-            Waters India has implemented ETP solutions for various industries around Bangalore, including manufacturing, pharmaceuticals, and textiles. 
+            Waters India has implemented ETP solutions for various industries around Bangalore, including manufacturing, pharmaceuticals, and textiles.
             Each project is customized to address specific wastewater treatment needs, ensuring <strong>effective removal of contaminants</strong> and compliance with regulatory standards.
           </p>
         </section>
@@ -60,7 +60,7 @@ export default function ETPProjectsBangalore() {
         <section>
           <h2>Why Choose Waters India for Your ETP Needs?</h2>
           <p>
-            Waters India is committed to delivering <strong>high-quality effluent treatment solutions</strong> that address industrial wastewater challenges effectively. 
+            Waters India is committed to delivering <strong>high-quality effluent treatment solutions</strong> that address industrial wastewater challenges effectively.
             With our expertise in ETP technology, we offer customized solutions that ensure compliance, sustainability, and reliability. Trust Waters India for your ETP projects to experience the best in wastewater management.
           </p>
         </section>
@@ -89,6 +89,6 @@ export default function ETPProjectsBangalore() {
           margin-bottom: 0.75rem;
         }
       `}</style>
-    </>
+    </div>
   );
 }

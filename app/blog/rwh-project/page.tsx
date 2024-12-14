@@ -5,20 +5,20 @@ import Head from 'next/head';
 
 export default function RainwaterHarvestingProject() {
   return (
-    <>
+    <div className="bg-white">
       <Head>
         <title>Rainwater Harvesting Project | Waters India</title>
         <meta name="description" content="Discover how Waters India implemented a rainwater harvesting project, promoting sustainable water management and conservation." />
         <meta name="keywords" content="rainwater harvesting, sustainable water management, water conservation, Waters India" />
       </Head>
-      <Hero/>
+      <Hero />
       <main className="container">
         <h1>Rainwater Harvesting Project: Sustainable Water Solutions</h1>
-        
+
         <section>
           <h2>Introduction</h2>
           <p>
-            Waters India is committed to promoting sustainable water management practices. Our <strong>Rainwater Harvesting (RWH)</strong> project is designed to collect, 
+            Waters India is committed to promoting sustainable water management practices. Our <strong>Rainwater Harvesting (RWH)</strong> project is designed to collect,
             store, and utilize rainwater effectively, contributing to water conservation and ensuring a reliable water supply.
           </p>
         </section>
@@ -26,7 +26,7 @@ export default function RainwaterHarvestingProject() {
         <section>
           <h2>What is Rainwater Harvesting?</h2>
           <p>
-            Rainwater harvesting is the practice of collecting and storing rainwater for reuse before it reaches the ground. This technique helps reduce 
+            Rainwater harvesting is the practice of collecting and storing rainwater for reuse before it reaches the ground. This technique helps reduce
             the demand on existing water supplies and can provide an alternative source of water for irrigation, landscaping, and even potable use when properly treated.
           </p>
         </section>
@@ -34,7 +34,7 @@ export default function RainwaterHarvestingProject() {
         <section>
           <h2>Our RWH Project</h2>
           <p>
-            Our rainwater harvesting project aims to harness the potential of rainwater to support sustainable water usage. By integrating RWH systems into 
+            Our rainwater harvesting project aims to harness the potential of rainwater to support sustainable water usage. By integrating RWH systems into
             buildings and landscapes, we help communities optimize their water resources and reduce dependency on groundwater and municipal supplies.
           </p>
         </section>
@@ -60,8 +60,8 @@ export default function RainwaterHarvestingProject() {
         <section>
           <h2>Why Choose Waters India for Your RWH Needs?</h2>
           <p>
-            At Waters India, we specialize in designing and implementing effective rainwater harvesting solutions tailored to meet the specific needs of our clients. 
-            Our expertise ensures that your RWH system is efficient, sustainable, and beneficial for both the environment and your community. 
+            At Waters India, we specialize in designing and implementing effective rainwater harvesting solutions tailored to meet the specific needs of our clients.
+            Our expertise ensures that your RWH system is efficient, sustainable, and beneficial for both the environment and your community.
             Trust us for your rainwater harvesting projects to experience the advantages of responsible water management.
           </p>
         </section>
@@ -90,6 +90,6 @@ export default function RainwaterHarvestingProject() {
           margin-bottom: 0.75rem;
         }
       `}</style>
-    </>
+    </div>
   );
 }

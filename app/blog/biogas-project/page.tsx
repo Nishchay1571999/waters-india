@@ -6,20 +6,20 @@ import Head from 'next/head';
 
 export default function BiogasPlantMadikeri() {
   return (
-    <>
+    <div className="bg-white">
       <Head>
         <title>Biogas Plant Project in Madikeri | Waters India</title>
         <meta name="description" content="Explore how Waters India implemented a biogas plant in Madikeri, providing sustainable energy solutions and promoting waste management." />
         <meta name="keywords" content="biogas plant, sustainable energy, waste management, Madikeri, renewable energy, Waters India" />
       </Head>
-      <Hero/>
+      <Hero />
       <main className="container">
         <h1>Biogas Plant Project in Madikeri: Sustainable Energy Solutions</h1>
-        
+
         <section>
           <h2>Introduction</h2>
           <p>
-            Waters India is proud to announce the successful implementation of a <strong>biogas plant</strong> in Madikeri, aimed at promoting sustainable energy solutions 
+            Waters India is proud to announce the successful implementation of a <strong>biogas plant</strong> in Madikeri, aimed at promoting sustainable energy solutions
             and efficient waste management. Our biogas technology harnesses organic waste to produce clean energy, contributing to a greener environment.
           </p>
         </section>
@@ -27,7 +27,7 @@ export default function BiogasPlantMadikeri() {
         <section>
           <h2>What is a Biogas Plant?</h2>
           <p>
-            A biogas plant is a facility that converts organic waste into biogas through anaerobic digestion. This process produces renewable energy in the form of biogas, 
+            A biogas plant is a facility that converts organic waste into biogas through anaerobic digestion. This process produces renewable energy in the form of biogas,
             which can be used for heating, electricity generation, and as a vehicle fuel, while also reducing greenhouse gas emissions and promoting waste recycling.
           </p>
         </section>
@@ -35,7 +35,7 @@ export default function BiogasPlantMadikeri() {
         <section>
           <h2>Our Biogas Project in Madikeri</h2>
           <p>
-            The biogas plant in Madikeri is designed to process local organic waste, turning it into valuable energy while minimizing environmental impact. 
+            The biogas plant in Madikeri is designed to process local organic waste, turning it into valuable energy while minimizing environmental impact.
             The project highlights our commitment to sustainability and innovation in waste management solutions.
           </p>
         </section>
@@ -61,8 +61,8 @@ export default function BiogasPlantMadikeri() {
         <section>
           <h2>Why Choose Waters India for Biogas Solutions?</h2>
           <p>
-            Waters India is dedicated to delivering <strong>innovative and sustainable energy solutions</strong> through our biogas technology. 
-            Our expertise in renewable energy projects ensures that our clients receive reliable systems tailored to their specific needs. 
+            Waters India is dedicated to delivering <strong>innovative and sustainable energy solutions</strong> through our biogas technology.
+            Our expertise in renewable energy projects ensures that our clients receive reliable systems tailored to their specific needs.
             Trust Waters India for your biogas projects and join us in promoting a sustainable future.
           </p>
         </section>
@@ -91,6 +91,6 @@ export default function BiogasPlantMadikeri() {
           margin-bottom: 0.75rem;
         }
       `}</style>
-    </>
+    </div>
   );
 }
